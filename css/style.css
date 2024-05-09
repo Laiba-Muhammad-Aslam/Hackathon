@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque ;
+}
+/* CUSTOM CLASSES */
+
+.main-btn{
+    background: linear-gradient(to right, #fe860a, #fa9002, #f69900, #f2a200, #edab05, #edb509, #edbe0f, #edc817, #f0d51b, #f2e322, #f4f12a, #f4ff33);;
+    border-radius: 100px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbar ul >li{
+    margin: 0 8px;
+    /* border: 1px solid red; */
+}
+.navbar .social-media-icons a{
+    color: #000000;
+}
+.navbar .social-media-icons i{
+    font-size: 20px;
+}
+
+/* HOME SECTION  */
+
+#main .img-container img{
+    width: 100%;
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 420px){
+    .navbar .nav-item a{
+        margin-top: 10px;
+    }
+    .navbar .social-media-icons i{
+        display: none;
+    }
+}
